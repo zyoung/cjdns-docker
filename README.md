@@ -7,7 +7,9 @@ risk.
 For a simple image, just run:
 
 ```bash
-$ docker build -t cjdns https://github.com/thefinn93/docker
+$ git clone https://github.com/zyoung/cjdns-docker.git
+$ cd cjdns-docker
+$ docker build .
 $ docker run --privileged cjdns
 ```
 
