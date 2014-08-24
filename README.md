@@ -9,7 +9,7 @@ For a simple image, just run:
 ```bash
 $ git clone https://github.com/zyoung/cjdns-docker.git
 $ cd cjdns-docker
-$ docker build .
+$ docker build -t cjdns . > build.log 2>&1
 $ docker run --privileged cjdns
 ```
 
